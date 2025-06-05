@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    padding: 20px;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#terminal {
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+}
+
+textarea#codeEditor {
+    width: 100%;
+    height: 300px;
+    background: #000;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #0f0;
+    resize: vertical;
+    outline: none;
+    white-space: pre;
+    overflow-wrap: normal;
+}
+
+button {
+    margin-top: 10px;
+    background: #000;
+    color: #0f0;
+    border: 2px solid #0f0;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0f0;
+    color: #000;
+}
+
+textarea#codeEditor {
+    tab-size: 2;
+    overflow: hidden;
+}
+
+#codeEditor {
+    display: none;
+}
+
+button#hackButton {
+    display: block;
+    margin-top: 10px;
+    background: #000;
+    color: #0f0;
+    border: 2px solid #0f0;
+    padding: 10px 20px;
+    font-family: monospace;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button#hackButton:hover {
+    background: #0f0;
+    color: #000;
+}

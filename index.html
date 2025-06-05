@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xyntrix</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <meta name="description" content="Xyntrix - A Hacker Simulation" />
+  <meta name="keywords" content="hacking, simulation, cybersecurity, learning" />
+</head>
+<body>
+  <h1>Xyntrix</h1>
+
+  <!-- User Input Form -->
+  <form id="xyntrixForm" action="#" method="POST">
+    <div>
+      <label for="name">Name:</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="John Doe"
+        required
+        title="Name"
+      />
+    </div>
+
+    <div>
+      <label for="website">Website:</label>
+      <input
+        id="website"
+        name="website"
+        type="url"
+        placeholder="https://www.example.com"
+        required
+        title="Website URL starting with https://www."
+      />
+      <p><em>Make sure the URL starts with https://www.</em></p>
+    </div>
+
+    <input id="button" type="submit" value="Enter the Simulation" />
+  </form>
+
+  <p>
+    <b>
+      By clicking "Enter the Simulation", you acknowledge the risk that you are
+      about to take and hacking may result in fines up to $100,000. Xyntrix is
+      not responsible for any fines.
+    </b>
+  </p>
+  <p id="disclaimer">
+    <em>Xyntrix is a simulation and does not promote or endorse illegal
+      activities.</em>
+  </p>
+</body>
+</html>

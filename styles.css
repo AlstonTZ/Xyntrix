@@ -1,0 +1,44 @@
+* {
+    margin: 10px 10%;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 5em;
+    color: #00ff00;
+}
+
+p {
+    font-size: 15px;
+    color: #ff0000;
+}
+
+input:not(#button) {
+    font-size: 20px;
+    color: #0000ff;
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+#button {
+    font-size: 20px;
+    color: #000000;
+    background-color: #00ff00;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+div {
+    font-size: 20px;
+}
+
+#disclaimer {
+    font-size: 10px;
+}
